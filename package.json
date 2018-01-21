@@ -10,6 +10,14 @@
     "test": "jest --config jest.json",
     "lint": "./node_modules/.bin/eslint --ext .jsx --ext .js ./src/"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamoliver/react-blueprint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamoliver/react-blueprint/issues"
+  },
+  "homepage": "https://github.com/adamoliver/react-blueprint",
   "keywords": [
     "reactjs"
   ],
