@@ -13,6 +13,6 @@ describe('Img', () => {
     });
 
     test('should render an image', () => {
-        expect(component.type()).toEqual('img');
+        expect(component.type()).toEqual('foo');
     });
 });
