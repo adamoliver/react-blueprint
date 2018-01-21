@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
     devtool: 'cheap-module-eval-source-map',
@@ -26,6 +27,11 @@ const config = {
         contentBase: './dist',
         historyApiFallback: true,
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: './app/index.html',
+        }),
+    ],
 };
 
 module.exports = config;

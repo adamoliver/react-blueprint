@@ -42,6 +42,7 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.9.0",
+    "html-webpack-plugin": "^2.30.1",
     "jest": "22.1.4",
     "pre-push": "^0.1.1",
     "prop-types": "^15.5.10",
