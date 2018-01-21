@@ -1,4 +1,4 @@
-const webpack = require('webpack');
+const path = require('path');
 
 const config = {
     devtool: 'cheap-module-eval-source-map',
@@ -10,7 +10,6 @@ const config = {
             test: /\.jsx?$/,
             exclude: /node_modules/,
             use: [
-                'react-hot-loader',
                 'babel-loader',
             ],
         }],
@@ -19,7 +18,7 @@ const config = {
         extensions: ['.js', '.jsx'],
     },
     output: {
-        path: __dirname + '/dist',
+        path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
         filename: 'bundle.js',
     },
