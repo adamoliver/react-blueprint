@@ -19,13 +19,6 @@
     "dist"
   ],
   "author": "mail@adamoliver.net",
-  "babel": {
-    "presets": [
-      "es2015",
-      "react",
-      "stage-2"
-    ]
-  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.25.0",
