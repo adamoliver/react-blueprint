@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/adamoliver/react-blueprint.svg?branch=master)](https://travis-ci.org/adamoliver/react-blueprint)
 [![Dependencies](https://david-dm.org/adamoliver/react-blueprint.svg)](https://david-dm.org/adamoliver/react-blueprint)
+[![Dependencies](https://david-dm.org/adamoliver/react-blueprint/dev-status.svg)](https://david-dm.org/adamoliver/react-blueprint/?type=dev)
 
 A blueprint for creating installable React components.
 
