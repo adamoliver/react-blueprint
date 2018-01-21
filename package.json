@@ -6,7 +6,7 @@
   "main": "dist/index",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --open -d --env.platform=default --progress",
-    "build": "NODE_ENV=production BABEL_ENV=es ./node_modules/.bin/babel src/ --out-dir dist/ --ignore *.test.jsx",
+    "build": "NODE_ENV=production ./node_modules/.bin/webpack",
     "test": "jest --config jest.json",
     "lint": "./node_modules/.bin/eslint --ext .jsx --ext .js ./src/"
   },
