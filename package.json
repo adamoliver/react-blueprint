@@ -43,5 +43,9 @@
   "peerDependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 9"
+  ]
 }
