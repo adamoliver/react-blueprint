@@ -49,5 +49,9 @@
   "browserslist": [
     "last 2 versions",
     "not ie <= 9"
+  ],
+  "pre-push": [
+    "lint",
+    "test"
   ]
 }
