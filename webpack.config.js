@@ -22,6 +22,7 @@ const config = {
         path: path.resolve(__dirname, 'dist'),
         publicPath: '/',
         filename: 'index.js',
+        libraryTarget: 'commonjs2',
     },
     devServer: {
         contentBase: './dist',
