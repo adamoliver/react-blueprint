@@ -3,6 +3,7 @@
   "rules": {
     "indent": [2, 4],                           # 4 spaces for indentation
     "react/jsx-indent": [2, 4],                 # 4 spaces for JSX indentation
+    "react/jsx-indent-props": [2, 4],           # 4 spaces for indentation
     "max-len": [2, 120],                        # 120 max line length
     "class-methods-use-this": 0,                # Needed to return JSX from React component methods
     "compat/compat": 2
